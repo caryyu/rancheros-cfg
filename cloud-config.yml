@@ -1,0 +1,9 @@
+#cloud-config
+rancher:
+  docker:
+    registry_mirror: "https://93xgidxp.mirror.aliyuncs.com"
+  network:
+    dns:
+      nameservers:
+      - 8.8.8.8
+      - 8.8.4.4
